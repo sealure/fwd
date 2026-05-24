@@ -1,3 +1,9 @@
+# huggingface免费部署
+## 1、clone本项目
+## 2、触发actions
+## 3、在huggingface上填入你构建的镜像
+
+
 # Docker 部署指南
 
 ## 前置条件
