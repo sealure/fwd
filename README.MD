@@ -9,7 +9,7 @@
 
 ```bash
 docker pull ghcr.io/sealure/fwd:latest
-docker run -d --name fwd -p 7860:7860 --restart always ghcr.io/sealure/fwd:latest
+docker run -d --name fwd -p 7860:7860 -e DEFAULT_UUID=f693501c-f468-442c-bcd2-6d7e118c8d41 --restart always ghcr.io/sealure/fwd:latest
 ```
 
 ## 使用 Docker Compose 运行
