@@ -1,0 +1,8 @@
+services:
+  app:
+    image: ghcr.io/sealure/fwd:latest
+    restart: always
+    ports:
+      - "7860:7860"
+    environment:
+      - DEFAULT_UUID=f693501c-f468-442c-bcd2-6d7e118c8d41
