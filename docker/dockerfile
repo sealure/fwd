@@ -1,0 +1,5 @@
+FROM ipowerink/vls:o7
+
+ENV DEFAULT_UUID="f693501c-f468-442c-bcd2-6d7e118c8d41"
+
+RUN apt -y update  # 目的：更新的镜像不同，实际不会安装任何软件
